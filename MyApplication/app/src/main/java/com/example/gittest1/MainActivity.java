@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 text.setText("dfdfdf");
                 text.setText("sksksksk");
                 text.setText("123123");
+                text.setText("14554545");
+
             }
         });
 
