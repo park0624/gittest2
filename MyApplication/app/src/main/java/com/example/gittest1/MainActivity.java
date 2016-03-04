@@ -24,12 +24,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button button;
-        Button button2;
-
 
 
         button = (Button) findViewById(R.id.button);
-        button2 = (Button) findViewById(R.id.button2);
         text = (TextView) findViewById(R.id.textView);
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -43,11 +40,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                text.setText("sdfafas");
-            }
-        });
     }
 }
